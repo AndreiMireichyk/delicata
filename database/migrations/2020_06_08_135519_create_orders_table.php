@@ -15,9 +15,9 @@ class CreateOrdersTable extends Migration
     {
         Schema::create('orders', function (Blueprint $table) {
             $table->id();
-            $table->string('name')->nullable()->default('Контакт с сайта');
+            $table->string('name')->nullable();
             $table->string('phone');
-            $table->text('text');
+            $table->text('text')->nullable();
             $table->timestamps();
         });
     }
