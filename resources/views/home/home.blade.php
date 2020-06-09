@@ -6,7 +6,7 @@
     <header class="page-header page-header-dark bg-img-cover overlay overlay-60"
             style='background-image: url("https://source.unsplash.com/R-LK3sqLiBw/1600x1200")'>
         <div class="page-header-content">
-            <div class="container text-center">
+            <div class="container text-center" data-aos="fade-up">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <h1 class="page-header-title mb-3">Наши проекты</h1>
@@ -37,7 +37,7 @@
         </div>
     </section>
     <section class="bg-white py-10">
-        <div class="container">
+        <div class="container" data-aos="fade-up">
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-8 col-md-10 text-center py-5">
                     <h2>Нужен дизайн помещения?</h2>
