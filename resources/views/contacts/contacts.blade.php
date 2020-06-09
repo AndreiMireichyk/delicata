@@ -67,7 +67,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label class="small text-gray-600" for="text">Текст сообщения</label>
-                                    <textarea class="form-control" id="text" rows="4"></textarea>
+                                    <textarea class="form-control" id="text" rows="4" name="text"></textarea>
                                 </div>
                                 <div class="text-center">
                                     <button class="btn btn-primary btn-marketing" type="submit">Отправить</button>
